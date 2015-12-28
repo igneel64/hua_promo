@@ -206,8 +206,24 @@ ul.visrow{
     }
 
 }
-video{
+.coverphoto video{
         display: block;
+}
+
+@media only screen and (max-width: 619px){
+.coverphoto video{
+    display:none;
+}
+.coverphoto{
+    z-index: -2;
+    min-width: 100%;
+    display: block;
+    min-height:422px;
+    background: url("hua.jpg") 50% 0 no-repeat;
+    background-size: cover;
+        
+    
+}
 }
 
 .coverphoto{
