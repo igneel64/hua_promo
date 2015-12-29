@@ -30,7 +30,7 @@ gem 'bxslider-rails'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
-# gem 'unicorn'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -44,6 +44,7 @@ end
 group :production do
   gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'unicorn'
 end
 
 group :development do
