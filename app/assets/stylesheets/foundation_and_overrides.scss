@@ -566,16 +566,76 @@ ul.visrow{
     font-weight:100;
 }
 
-#newslettertext{
-    float: left;
-    /* vertical-align: text-bottom; */
-    width: 180px;
-    height: 21px;
-}
-#newsletterbut{
-        float: left;
+
+@media only screen and (min-width: 419px) and (max-width: 640px){
+.footul{
+    margin-bottom:0px;
 }
 
+.footul.goleft{
+    float:left;
+
+}
+
+.footul.goright{
+    float:right;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 406px){
+.mobhead{
+    font-size:0.7rem;
+    li{
+        font-size:0.7rem;
+    }
+}
+.info{
+        margin: -10px 17px;
+}
+.name{
+    font-size:2.2rem;
+}
+.mybutton.huabut {
+    font-size: 1.2em !important;
+}
+
+.supertext h1 {
+    font-size: 1.3rem;
+}
+
+.supertext h2 {
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+
+.content h2 {
+    font-size: 3.4rem;
+}
+
+.itembox h2 {
+    font-size: 1.3rem;
+}
+
+.itembox p {
+    font-size: 0.6rem;
+}
+
+.item1 button {
+    padding: 5px 10px;
+}
+
+.item3 button {
+    padding: 5px 10px;
+}
+
+.item4 {
+    background-position-x: 472px;
+}
+
+.question span {
+    font-size: 15px;
+}
+}
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
